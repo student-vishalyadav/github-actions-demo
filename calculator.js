@@ -1,5 +1,5 @@
 function calculateTotal(price, quantity) {
-  return price + quantity; // Intentional bug
+  return price * quantity;
 }
 
 module.exports = { calculateTotal };
